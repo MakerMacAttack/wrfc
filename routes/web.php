@@ -24,3 +24,7 @@ Route::get('/roster', function () {
 Route::get('/CBT', function () {
     return view('CBT');
 });
+
+Route::get('/history', function () {
+    return view('history');
+});

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Wash RFC Roster</title>
+        <title>Wash RFC History</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -16,15 +16,10 @@
         </style>
     </head>
     <body class="antialiased">
-        <h1>The Men of Washington RFC</h1>
-        <h3>Coaching Staff</h3>
-        <h3>The Players</h3>
-        <!-- Need some kind of box all the players will go in -->
-        <!-- Set it up as a flex so it's responsive -->
-            <!-- Then each player. -->
-            <!-- A picture -->
-            <!-- Their name -->
-        <h3>Old Boys</h3>
-        <!-- Notable old boys -->
+        <h1>History</h1>
+        <h3>DC's Oldest Rugby Football Club</h3>
+        <h2>Established 1963</h2>
+            <div>Washington RFC was the first Rugby club in Washington, DC, celebrating over sixty years.</div>
+            <!-- notable events and people and such -->
     </body>
 </html>
