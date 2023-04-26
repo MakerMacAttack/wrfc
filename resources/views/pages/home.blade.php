@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Wash RFC About</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-        <!-- Styles -->
-        <style>
-            
-        </style>
-    </head>
+@extends('layouts.default')
+@section('content')
     <body class="antialiased">
         <h1>Welcome to the website for the Washington Rugby Football Club</h1>
         <h3>About Us</h3>
@@ -25,7 +10,7 @@
         <p>For a schedule of games and practices, check the navigation bar for the team calendar.</p>
         <p>WRFC boast a full schedule with competitive games, social activities, networking opportunities, volunteer endeavors and much more.</p>
         <p>Games are held on Saturdays during the Fall, Summer and Spring seasons.
-All players are welcomed and can immediately play a role in our teams.</p>
+    All players are welcomed and can immediately play a role in our teams.</p>
         <p>Email: <a href="mailto:social@washingtonrugbyclub.org">social@washingtonrugbyclub.org</a> for more information upcoming social events.</p>
         <h3>Sponsors</h3>
         <p>We are extremely grateful to our sponsors for their generous support throughout the year. If you are interested in sponsoring the club please email <a href="mailto:fundraising@washingtonrugbyclub.org">fundraising@washingtonrugbyclub.org</a>.</p>
@@ -35,4 +20,4 @@ All players are welcomed and can immediately play a role in our teams.</p>
         <p>Please consider making a <a href="https://squareup.com/market/wrfc/">donation</a> to the Washington DC Rugby Foundation to advance the sport of rugby in the DC Area.</p>
         <p>Or, if you shop on Amazon Smile, please consider adding us as your charity of choice.</p>
     </body>
-</html>
+@stop

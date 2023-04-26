@@ -1,4 +1,4 @@
 @extends('layouts.default')
 @section('content')
-   i am the home page
+   Washington RFC - powered by TechMediaMagic
 @stop

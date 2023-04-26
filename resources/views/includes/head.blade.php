@@ -1,6 +1,12 @@
 <meta charset="utf-8">
 <meta name="description" content="">
-<meta name="Saquib" content="Blade">
-<title>Checkout our layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wash RFC About</title>
 <!-- load bootstrap from a cdn -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
+<link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+
+<!-- Styles -->
+<style>
+    
+</style>
