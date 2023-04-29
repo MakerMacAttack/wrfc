@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +19,11 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/roster', function () {
-    return view('pages.roster');
-});
+// Route::get('/roster', function () {
+//     return view('pages.roster');
+// });
+
+Route::get('roster', [RosterController::class, 'roster'])->name('roster');
 
 Route::get('/CBT', function () {
     return view('pages.CBT');
