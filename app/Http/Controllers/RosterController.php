@@ -17,6 +17,6 @@ class RosterController extends Controller
 
     public function roster()
     {
-        return view('pages.roster', []);
+        return view('pages.roster.default', []);
     }
 }

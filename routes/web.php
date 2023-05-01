@@ -32,3 +32,5 @@ Route::get('/CBT', function () {
 Route::get('/history', function () {
     return view('pages.history');
 });
+
+Route::get('prospective', [ProspectiveController::class, 'prospective'])->name('prospective');
